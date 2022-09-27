@@ -17,3 +17,15 @@ body{
     font-family: Arial;
     margin: 0;
 }
+
+.image{
+    margin-left: 95%;
+    width:100px;
+    border-radius: 50%;
+}
+
+.image-git{
+    margin-left: 95%;
+    width:70px;
+    border-radius: 50%;
+}
