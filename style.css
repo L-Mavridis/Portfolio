@@ -22,9 +22,16 @@ body{
     margin-left: 95%;
     width:100px;
     border-radius: 50%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
-.image-git{
+.image:hover {
+    top: -10px;
+  }
+
+.git{
     margin-left: 95%;
     width:70px;
     border-radius: 50%;
