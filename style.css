@@ -9,12 +9,15 @@
 }
 
 .center{
-    margin: auto;
     width: 60%;
     text-align: center;
 }
 
 .center-head{
-    margin: auto;
     width: 50%;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
 }
