@@ -9,8 +9,18 @@
     max-width: 100%;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 .center{
     text-align: center;
+}
+
+.right{
+    text-align: right !important;
 }
 
 body{
@@ -19,24 +29,30 @@ body{
     max-width: 100%;
 }
 
+
+
 .image{
-    margin-left: 95%;
-    width:100px;
+    width:50px;
+    height:50px;
     border-radius: 50%;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
+    object-fit: cover;
+    float: right !important;
+    
 }
 
 .image:hover {
     top: -10px;
   }
 
+  
 .git{
-    margin-left: 95%;
-    width:70px;
-    border-radius: 50%;
+    width: 60px;
+    height:60px;
 }
+
 
 @media only screen and (max-width: 600px) {
     body {
