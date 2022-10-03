@@ -180,3 +180,10 @@ body{
 .white {
   color: white;
 }
+
+.socials{
+  
+  justify-content: center;
+  display: flex;
+  
+}
