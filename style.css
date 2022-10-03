@@ -98,12 +98,7 @@ body{
     margin-right: auto;
 }
 
-.me{
-    width:200px;
-    height:auto;
-    text-align: center;
-    padding-left: 25px;
-}
+
 
 .image:hover {
     top: -10px;
@@ -117,4 +112,68 @@ body{
       max-width: 100%;
       width: 100%;
     }
+  }
+
+  .vertical-menu {
+    width: 400px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    max-width: 15%;
+    background-color: #3a3838;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    justify-content: center;
+  }
+
+  .me{
+    width:200px;
+    height:auto;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
   }
