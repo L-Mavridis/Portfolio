@@ -14,7 +14,6 @@
     color: whitesmoke;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
     font-size: 30px;
     max-width: 100%;
     bottom: 50px;
@@ -22,13 +21,24 @@
 
 }
 
-.foot-head{
-    display: flex;
-}
-
-.about{
+.inside{
     padding-left: 10px;
 }
+
+.footer p{
+    margin-top: auto;
+}
+
+.footer h1{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.foot-head{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
@@ -89,9 +99,10 @@ body{
 }
 
 .me{
-    width:150px;
+    width:200px;
     height:auto;
     text-align: center;
+    padding-left: 25px;
 }
 
 .image:hover {
