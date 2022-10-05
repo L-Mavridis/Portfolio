@@ -21,9 +21,8 @@
         <hr style="height:2px; width:50%; border-width:0; color:white; background-color:white">
         <li class="socials">
         <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
         <hr style="height:2px; width:50%; border-width:0; color:white; background-color:white"><br><br>
         <li class="socials">
             <a href="#" class="fa fa-facebook" target="_blank"></a>
@@ -34,11 +33,11 @@
         </li>
     </ul>
 
-    <div class="header" id="Header">
+    <div class="header" id="Home">
         <h1>Eleftherios Mavridis</h1>
         <p>Portofolio Page!</p>
     </div>
-    <div id="About" class="center">
+    <div id="about" class="center">
         <div class="center">
             <h1>Content HERE!</h1>   
             <p>This is a paragraph!</p>
@@ -56,11 +55,22 @@
         </div>
     </div>
 
-    <div class="center-footer">
-        <div>
-            <h1 class="social">Social!</h1>
-        </div>
+    <div class="contact" id="contact">
+        <form>
+            <div id="form">
+                <fieldset>
+                    <legend>Contact Form</legend>                
+                    <label class="label" for="email">Email</label>
+                    <input id="input" type="text" name="email" required><br>
+                    <label class="label" for="subject">Subject</label>
+                    <input id="input" type="text" name="subject" required><br>
+                    <label class="label" for="text">Email Body</label>
+                    <textarea name="text" rows="5" cols="50" required>Test email body</textarea>
+                    <input type="submit" value="Send email">
+                </fieldset>
 
+            </div>
+        </form>
     </div>
 </body>
 </html>
